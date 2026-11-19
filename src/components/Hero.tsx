@@ -4,7 +4,6 @@ export default function Hero() {
   return (
     <section id="inicio" className="border-b border-slate-100 bg-surface">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 px-6 py-20 text-center md:flex-row md:py-28 md:text-left">
-        {/* Avatar: foto (si la configuras) o tus iniciales */}
         <div className="flex h-36 w-36 shrink-0 items-center justify-center overflow-hidden rounded-full bg-accent text-4xl font-bold text-white shadow-lg ring-4 ring-white">
           {profile.photo ? (
             <img
@@ -26,7 +25,7 @@ export default function Hero() {
           </h1>
           <p className="mt-3 text-xl text-muted">{profile.role}</p>
           <p className="mt-4 max-w-xl text-muted">
-            Construyo interfaces web con React y JavaScript. Apasionado por el
+            Construyo interfaces web con React y JavaScript. Me gusta el
             frontend, el trabajo en equipo y aprender algo nuevo en cada
             proyecto.
           </p>

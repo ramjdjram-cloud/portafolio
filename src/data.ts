@@ -1,8 +1,3 @@
-// ============================================================
-//  CONTENIDO DEL PORTAFOLIO
-//  Edita este archivo para cambiar textos, proyectos y habilidades.
-// ============================================================
-
 export const profile: {
   name: string;
   initials: string;
@@ -22,9 +17,7 @@ export const profile: {
   phone: "+52 341 112 3003",
   linkedin: "https://www.linkedin.com/in/jose-de-jesus-ramos",
   github: "https://github.com/ramjdjram-cloud",
-  // Tu foto: guarda la imagen en la carpeta "public" (ej. public/foto.jpg)
-  // y cambia esto por "/foto.jpg". Mientras tanto se muestran tus iniciales (JJRR).
-  photo: '/JJRR.jpg',
+  photo: "/JJRR.jpg",
 };
 
 export const about: string[] = [
